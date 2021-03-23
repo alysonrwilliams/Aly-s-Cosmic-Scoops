@@ -263,7 +263,7 @@ span.price {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 8px;
+  font-size: 12px;
   display: block;
 }
 
@@ -286,25 +286,54 @@ span.price {
 }
 
 .mobilenav {display: block;}
-.desktopnav {display: none;}
+.navbar {display: none;}
+
+
+
+
 
 /*Media Query 1*/
 @media screen and ( min-width: 801px ) and ( max-width: 1024px ) {
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        width: 50%;
-        justify-items: center;
-    } 
+   
+    /* won't display mobile nav on desktop screens and vice versa */
+.mobilenav {display: none;}
+.navbar {display: inline-block;} 
+
+#landing-text {
+   height: 60vh;
+    }
+
+ nav {
+    background:rgba(0, 0, 0, 0.79);
+    overflow: hidden;
+         }
     
-    .mobilenav {display: none;}
-    .desktopnav {display: inline;}
+nav a {
+  float: right;
+  color: #8ab1cf;
+  text-align: center;
+  padding: 20px;
+  text-decoration: line-through;
+  text-decoration-color: yellow;
+  font-size: 10px;
+}
+    
+ nav a:hover {
+        background-color: rgba(95, 81, 126, 0.34);
+    }
+    
+    
     
 }
 
-      
+
+
+
+
+
+
+
+
 /*Media Query 2*/
 @media only screen and (min-width: ) {
    
