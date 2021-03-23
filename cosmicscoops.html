@@ -68,7 +68,7 @@
             <div id="header">
                 <h2>Try Our Favorites</h2>
             </div>
-            <h3 class="favorite-1">Lemon Blueberry Galaxy</h3>
+            <h3 class="favorite-1">Lemon Blueberry Galaxy $5</h3>
             
             <img src="https://source.unsplash.com/8beTH4VkhLI/1600x900/" alt="">
             <div class="caption">
@@ -76,7 +76,7 @@
             </div>
        
             <div class="flavor">
-            <h3>The Milky Way</h3>
+            <h3>The Milky Way $5</h3>
             </div>
             
             <img src="https://source.unsplash.com/wxmrTxUAMJE/1600x900/" alt=""> 
@@ -84,7 +84,7 @@
                 <p>A decadent chocolate ice cream packed full of Milky Way candy pieces and topped with caramel drizzle.</p>
             </div>
         
-            <h3 class="favorite-1">Sprinkled Stardust</h3>
+            <h3 class="favorite-1">Sprinkled Stardust $5</h3>
            
             <img src="https://source.unsplash.com/5A0O12BIsjY/1600x900/" alt="">
             <div class="caption">
@@ -92,7 +92,7 @@
             </div>
            
             <div class="flavor">
-            <h3>Oreo Moon Rock Shake</h3>
+            <h3>Oreo Moon Rock Shake $6</h3>
             </div>
             
             <img src="https://source.unsplash.com/OPncjOLjXis/1600x900/" alt=""> 
@@ -100,7 +100,7 @@
                 <p>A rich chocolate ice cream packed full of Oreo cookies. You will need a spoon and a straw for this one! Lots of cookie <strong>chunks</strong>, not pieces.</p>
             </div>
           
-            <h3 class="favorite-1">The Zero Gravity</h3>
+            <h3 class="favorite-1">The Zero Gravity $6</h3>
             <div class="flex-container">
             <img src="https://source.unsplash.com/zgl4LvTL06c/1600x900/" alt="">
             <div class="caption">
@@ -121,26 +121,40 @@
           <div class="col-50">
             <h3 class="form_h3">Tell Us About Yourself</h3>
             <label for="fname">Your Dessert Choice</label>
-            <input type="text" id="dessert" name="dessert" placeholder="Yummy!">
+            <input type="text" id="dessert" name="dessert">
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Carmen">
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="carmen@example.com">
-            <label for="adr">Address</label>
-            <input type="text" id="adr" name="address" placeholder="123 W. 4th St">
-            <label for="city">City</label>
-            <input type="text" id="city" name="city" placeholder="Louisville">
-           
+            <input type="text" id="fname" name="firstname" >
+            
+            </div>
+          </div>
+        </form>
+      </div>
           </div>
           
            </div>
            
+           
+           <!-- Tip Calculator -->
+           <h4> Feeling Generous? Tip Us!</h4>
+<form action="javascript:void(calc())">
+        Dessert Price: $<input id="bill" type="text">
+        <br>
+        <input class="order_btn" type="submit" value="Calculate">
+        <br>
+        Tip (20%): <span id="tip"></span>
+        <br>
+        Total: <span id="total"></span>
+    </form>
+  
+
+          
+           
            <!-- The Submit Button -->
-        <input class="order_btn" type="button" value="Submit" onclick="myfunction()">
-      </form>
-    </div>
-  </div>
-</div>
+        <input class="order_btn" type="button" value="Submit Order" onclick="myfunction()">
+               
+    
+ 
+
     </main>
     
     

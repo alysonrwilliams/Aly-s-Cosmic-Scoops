@@ -23,3 +23,15 @@ function myfunction() {
 var x=document.getElementById('fname').value;
 alert("Hello, " +x + "! Your ice cream is being prepared!");
 }
+
+
+/* Tip Calculator Function*/
+
+function calc() {
+        var bill = Number(document.getElementById('bill').value);
+        var tip = bill * .20;
+        var total_bill = bill + tip;
+
+        document.getElementById("tip").innerHTML= "$"+Number(tip).toFixed(2);
+        document.getElementById("total").innerHTML= "$"+Number(total_bill).toFixed(2);         
+    }
