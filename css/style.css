@@ -170,10 +170,6 @@ footer h3 {
   flex: 25%;
 }
 
-.col-50 {
-  -ms-flex: 50%;
-  flex: 50%;
-}
 
 .col-75 {
   -ms-flex: 75%;
@@ -181,7 +177,6 @@ footer h3 {
 }
 
 .col-25,
-.col-50,
 .col-75 {
   padding: 0 16px;
 }
@@ -289,3 +284,28 @@ span.price {
   background-color: #8ab1cf;
   color: black;
 }
+
+.mobilenav {display: block;}
+.desktopnav {display: none;}
+
+/*Media Query 1*/
+@media screen and ( min-width: 801px ) and ( max-width: 1024px ) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 50%;
+        justify-items: center;
+    } 
+    
+    .mobilenav {display: none;}
+    .desktopnav {display: inline;}
+    
+}
+
+      
+/*Media Query 2*/
+@media only screen and (min-width: ) {
+   
+    }

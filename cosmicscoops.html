@@ -18,10 +18,22 @@
       <a href="#landing" class="active">Best Scoops in Louisville</a>
   
         <div id="navLinks">
-            <a href="#images">Our Favorites</a>
+            <a href="#header">Our Favorites</a>
             <a href="#dessert">Your Info</a>
-            <a href="#zip">Your Payment</a>
+            
       </div>
+      <!-- This is the larger screen nav menu -->
+      <div class="desktopnav">
+
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+
+      
+      
   <!-- this toggles the navbar from the mobile view to the desktop view using JS -->
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
@@ -50,41 +62,50 @@
         
         
         
-         <!-- This is the menu section -->
-        <div id="images">
+         <!-- This is the ice cream menu section -->
+        
             <div id="header">
                 <h2>Try Our Favorites</h2>
             </div>
             <h3 class="favorite-1">Lemon Blueberry Galaxy</h3>
+            <div class="flex-container">
             <img src="https://source.unsplash.com/8beTH4VkhLI/1600x900/" alt="">
             <div class="caption">
                 <p>A lightly refreshing mix of fresh picked blueberries and lemon essence mixed into artisan bean ice cream.</p>
             </div>
+        </div>
             <div class="flavor">
             <h3>The Milky Way</h3>
             </div>
+            <div class="flex-container">
             <img src="https://source.unsplash.com/wxmrTxUAMJE/1600x900/" alt=""> 
             <div class="caption">
                 <p>A decadent chocolate ice cream packed full of Milky Way candy pieces and topped with caramel drizzle.</p>
             </div>
+        </div>
             <h3 class="favorite-1">Sprinkled Stardust</h3>
+            <div class="flex-container">
             <img src="https://source.unsplash.com/5A0O12BIsjY/1600x900/" alt="">
             <div class="caption">
                 <p>If sprinkles are your thing, this is your cream! A perfectly crafted vanilla bean base, filled with a variety of colorful sprinkles and topped with sugar cookie dust.</p>
             </div>
+            </div>
             <div class="flavor">
             <h3>Oreo Moon Rock Shake</h3>
             </div>
+            <div class="flex-container">
             <img src="https://source.unsplash.com/OPncjOLjXis/1600x900/" alt=""> 
             <div class="caption">
                 <p>A rich chocolate ice cream packed full of Oreo cookies. You will need a spoon and a straw for this one! Lots of cookie <strong>chunks</strong>, not pieces.</p>
             </div>
+            </div>
             <h3 class="favorite-1">The Zero Gravity</h3>
+            <div class="flex-container">
             <img src="https://source.unsplash.com/zgl4LvTL06c/1600x900/" alt="">
             <div class="caption">
                 <p>The gluten-free Zero Gravity contains only 4g net carbs and 45 calories, so you can feel weightless in the cosmos!</p>
             </div>
-        </div>
+            </div>
         
         
         
@@ -108,38 +129,9 @@
             <input type="text" id="adr" name="address" placeholder="123 W. 4th St">
             <label for="city">City</label>
             <input type="text" id="city" name="city" placeholder="Louisville">
-            <div class="row">
-              <div class="col-50">
-                <label for="state">State</label>
-                <input type="text" id="state" name="state" placeholder="KY">
-              </div>
-              <div class="col-50">
-                <label for="zip">Zip</label>
-                <input type="text" id="zip" name="zip" placeholder="40204">
-              </div>
-            </div>
-          </div>
-          <div class="col-50">
-            <h3 class="form_h3">Payment Information</h3>
            
-            <label for="cname">Name on Card</label>
-            <input type="text" id="cname" name="cardname" placeholder="Your Name">
-            <label for="ccnum">Credit card number</label>
-            <input type="text" id="ccnum" name="cardnumber" placeholder="0123-4567-8910-1112">
-            <label for="expmonth">Exp Month</label>
-            <input type="text" id="expmonth" name="expmonth" placeholder="01">
-
-            <div class="row">
-              <div class="col-50">
-                <label for="expyear">Exp Year</label>
-                <input type="text" id="expyear" name="expyear" placeholder="2024">
-              </div>
-              <div class="col-50">
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" placeholder="123">
-              </div>
-            </div>
           </div>
+          
            </div>
            
            <!-- The Submit Button -->
@@ -158,6 +150,8 @@
         <p>Questions about the menu or have special requests?<br> Call us!</p>
         <p>Phone: 502-555-1287</p>
     </footer>
+    
+    
     <script src="js/main.js"></script>
 </body>
 </html>
