@@ -332,13 +332,12 @@ nav a {
     }
     
  .flex-container {
-    display: flex;
-     max-width: 100%;
-    
+     display: flex;
+     flex-wrap: wrap;
 }
 
 .flex-child {
-    min-width: 30%;
+    width: 30%;
 }
 }
 
