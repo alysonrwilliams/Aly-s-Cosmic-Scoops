@@ -9,24 +9,20 @@ function myFunction() {
 }
 
 
-/* This function validates the first name field on the form */
-function validateForm() {
-  var x = document.forms["theForm"]["firstname"].value;
-  if (x == "") {
-    alert("Oops! You didn't tell us your name!");
-    return false;
-  }
-}
 
 /* This function prompts an alert to the customer after submitting */
 function myfunction() {
 var x=document.getElementById('fname').value;
+if (x == "") {
+    alert("Oops! You didn't tell us your name!");
+    return false;
+} else {
 alert("Hello, " +x + "! Your ice cream is being prepared!");
+}
 }
 
 
 /* Tip Calculator Function*/
-
 function calc() {
         var bill = Number(document.getElementById('bill').value);
         var tip = bill * .20;

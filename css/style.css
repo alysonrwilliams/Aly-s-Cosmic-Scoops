@@ -304,9 +304,7 @@ span.price {
 
 
 /*Media Query 1*/
-@media screen and ( min-width: 801px ) and ( max-width: 1024px ) {
-   
-    /* won't display mobile nav on desktop screens and vice versa */
+@media screen and (min-width: 801px) {
 .mobilenav {display: none;}
 .navbar {display: inline-block;} 
 
@@ -333,19 +331,18 @@ nav a {
         background-color: rgba(95, 81, 126, 0.34);
     }
     
-    
+ .flex-container {
+    display: flex;
+     max-width: 100%;
     
 }
 
+.flex-child {
+    min-width: 30%;
+}
+}
 
 
-
-
-
-
-
+   
 
 /*Media Query 2*/
-@media only screen and (min-width: ) {
-   
-    }
