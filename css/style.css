@@ -172,7 +172,7 @@ footer h3 {
   display: flex;
   -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
-  margin: 0 -16px;
+  margin: 0 -1px;
 }
 
 .col-25 {
@@ -196,6 +196,7 @@ footer h3 {
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 3px;
+   
 }
 
 input[type=text] {
@@ -221,7 +222,7 @@ label {
   background-color: #8ab1cf;
   color: white;
   padding: 12px;
-  margin: 10px 0;
+  margin: 15px 0px;
   border: none;
   width: 100%;
   border-radius: 3px;
@@ -251,16 +252,13 @@ span.price {
     text-decoration: line-through;
     text-decoration-color: yellow;
     text-decoration-thickness: .05em;
-    float: right;
+   
 }
-
-
-    
-
 
 .footer-text {
     font-size: 20px;
 }
+
 
 /*MOBILE NAV STYLING*/
 
@@ -396,3 +394,16 @@ nav a {
     text-align: center;   
     
 }
+.order_btn {
+  background-color: #8ab1cf;
+  color: white;
+  margin: 15px 0;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 17px;
+  text-decoration: line-through;
+  text-decoration-color: yellow;
+  text-decoration-thickness: .08em;
+    }

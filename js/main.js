@@ -17,7 +17,7 @@ if (x == "") {
     alert("Oops! You didn't tell us your name!");
     return false;
 } else {
-alert("Hello, " +x + "! Your ice cream is being prepared!");
+alert("Thanks, " +x + "! Your ice cream is being prepared!");
 }
 }
 
