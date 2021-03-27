@@ -173,7 +173,6 @@ footer h3 {
   -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
   margin: 0 -16px;
-
 }
 
 .col-25 {
@@ -243,6 +242,7 @@ span.price {
 }
 
 .form_h3 {
+    
     text-align: center;
     padding: 12px;
     text-align: center;
@@ -251,7 +251,11 @@ span.price {
     text-decoration: line-through;
     text-decoration-color: yellow;
     text-decoration-thickness: .05em;
+    float: right;
 }
+
+
+    
 
 
 .footer-text {
@@ -335,14 +339,60 @@ nav a {
  .flex-container {
      display: flex;
      flex-wrap: wrap;
+     justify-content: center;
 }
 
 .flex-child {
     width: 30%;
+    padding-left: 25px;
+    text-align: center;   
 }
+    
+.flex-container h3 {
+        text-align: center;
+}
+   
+
 }
 
 
    
 
 /*Media Query 2*/
+@media screen and (min-width: 600px) and (max-width: 800px) {
+.mobilenav {display: none;}
+.navbar {display: inline-block;} 
+    
+nav {
+    background:rgba(0, 0, 0, 0.79);
+    overflow: hidden;
+         }
+    
+nav a {
+  float: right;
+  color: #8ab1cf;
+  text-align: center;
+  padding: 20px;
+  text-decoration: line-through;
+  text-decoration-color: yellow;
+  font-size: 10px;
+}
+    
+ nav a:hover {
+        background-color: rgba(95, 81, 126, 0.34);
+     text-decoration: none;
+    }
+    
+.flex-container {
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.flex-child {
+    width: 35%;
+    padding-left: 25px;
+    text-align: center;   
+    
+}
