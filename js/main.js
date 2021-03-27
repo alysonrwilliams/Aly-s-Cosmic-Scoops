@@ -10,7 +10,7 @@ function myFunction() {
 
 
 
-/* This function prompts an alert to the customer after submitting */
+/* This function validates the name field + prompts alert to customer on submit */
 function myfunction() {
 var x=document.getElementById('fname').value;
 if (x == "") {
